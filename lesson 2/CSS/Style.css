@@ -1,0 +1,50 @@
+/* !"*"- универсальный селектор */
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* !h1-теговый селектор */
+
+/* margin- внешний отступ старон */
+/* border-внутренний отступ */
+h1 {
+  color: blue;
+  margin: 52px 20px 15px;
+  margin-top: 80px;
+  padding: 20px 50px;
+  border: 2px solid goldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* !селектор по атрибуту */
+[name] {
+  color: blueviolet;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(50, 193, 54);
+}
+/* ! Селектор по классу "." */
+/* ?important-делает приоритетнее */
+.classpan {
+  background-color: chocolate;
+  font-size: 25px;
+  font-weight: 800;
+  display: block;
+}
+#span {
+  background-color: chartreuse;
+}
+/* !селектор по id */
+#block-1 {
+  width: 150px;
+  height: 25px;
+  background-color: aqua;
+  color: tomato;
+  margin-left: 50px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
